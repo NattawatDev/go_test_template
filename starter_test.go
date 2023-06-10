@@ -34,3 +34,4 @@ func TestOddOrEven(t *testing.T) {
 		assert.Equal(t, "-1 is an odd number", OddOrEven(-1))
 		assert.Equal(t, "-101 is an odd number", OddOrEven(-101))
 	})
+}
